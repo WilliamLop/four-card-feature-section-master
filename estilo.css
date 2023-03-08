@@ -17,6 +17,7 @@ body{
     /* min-height:100vh; */
     line-height: 1.5;
     font-family: 'Poppins', sans-serif;
+    background-color: var(--VeryLightGray);
 }
 
 
@@ -177,6 +178,9 @@ body{
 }
 
 @media(min-width:120rem){
+    .main{
+        margin: 6.5rem 0 0 0;
+    }
     .card{
         width: 60%;
     }
